@@ -56,6 +56,7 @@ upstream example_app {
 14.обращаемся к серверу на порту 80 локально
 curl -H 'Host: example-http.com' http://localhost
 
+![Задание 1](решение1.png)
 
 Решение 2
 
@@ -134,3 +135,5 @@ listen web_tcp
 3.перезапуск systemctl reload haproxy
 
 4.проверяем curl http://127.0.0.1:8088 -H "Host: example.com"
+
+![Задание 2](решение2.png)
